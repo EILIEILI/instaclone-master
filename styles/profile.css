@@ -70,10 +70,13 @@
 }
 
 .Header__Numbers{
-	   display: flex;
+	display: flex;
     justify-content:space-between;
     width: 80%;
+}
 
+.Header__Number {
+    font-weight: 600;
 }
 
 .Header__Section:last-child{

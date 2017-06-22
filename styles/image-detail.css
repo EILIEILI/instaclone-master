@@ -8,14 +8,16 @@
 }
 
 .Image-Detail__Column-Left{
-    width: 30%;
+    width: 20%;
 }
 
 .Image-Detail__Photo-Container{
+    width: 20%;
 }
 
 .Image-Detail__Photo{
-    height:100%
+    width: 550px;
+    height:100%;
 }
 
 .Image-Detail__Column-Right{
