@@ -1,0 +1,93 @@
+.Feed{
+    display: flex;
+    flex-direction:column;
+    padding: 60px 0;
+    align-items:center;
+}
+.Photo__Header{
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.Photo__Avatar-Container{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right:10px; 
+}
+
+.Photo__Avatar{
+    max-width: 100%;
+}
+
+.Photo__Image{
+    max-width: 100%;
+}
+
+.Photo__Action{
+    cursor: pointer;
+}
+
+.Photo__Information{
+    padding:15px 0px 0px 15px;
+}
+
+.Photo__Actions{
+    margin-bottom: 10px;
+}
+
+.Photo__Action:first-child{
+    margin-right: 15px;
+}
+
+.Photo__Comments{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Photo__Comment{
+    margin-bottom: 10px;
+}
+
+.Photo__Date{
+    text-transform: uppercase;
+    color:grey;
+    font-size: 10px;
+    margin-bottom:15px;
+    display: block;
+}
+
+.Photo__Add-Comment{
+    padding:16px 0;
+    position: relative;
+    padding-bottom:5px;
+    border-top:1px solid #e6e6e6;
+}
+
+.Photo__Add-Comment i {
+    position: absolute;
+    right:10px;
+    top:25px;
+}
+
+.Photo__Input{
+    border:0;
+    resize: none;
+    height: 30px;
+    width: 95%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+
+.Photo__Input:focus{
+    outline: none;
+}
+
+.Heart-Red {
+    color:red;
+}

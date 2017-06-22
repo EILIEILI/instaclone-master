@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Instaclone | Login</title>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/root.css">
+    </head>
+    <body>
+        <main class="Login">
+            <div class="Login__Column">
+                <img class="Login__Phone-Image" src="images/phoneImage.png" />
+            </div>
+            <section class="Login__Column">
+                <div class="Login__Section">
+                    <div class="Login__Logo-Container">
+                        <img class="Login__Logo" src="images/logo.png" />
+                    </div>
+                    <form class="Login__Form" method="POST" action="feed.html">
+                        <input
+                            type="text"
+                            placeholder="Username"
+                            required
+                            class="Login__Input"
+                            name="username"
+                        />
+                        <div class="u-relative-container">
+
+                            <input
+                                type="password"
+                                placeholder="Password"
+                                required
+                                class="Login__Input"
+                                name="password"
+                            />
+                            <a class="Login__Form-Link" href="http://google.com">Forgot?</a>
+                        </div>
+                        <!-- This is a comment -->
+                        <input
+                            type="submit"
+                            value="Log in"
+                            class="Login__Input Login__Input--Blue"
+                        />
+                    </form>
+                    <span class="Login__Form-Divider">or</span>
+                    <a href="http://facebook.com" class="Login__Fb-Link">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i> Log in with Facebook
+                    </a>
+                </div>
+                <div class="Login__Section Login__Section--Horizontal">
+                    <span class="Login__Text">Don't have an account?</span>
+                    <a href="#" class="Login__Link">Sign up</a>
+                </div>
+                <div class="Login__Section Login__Section--Transparent">
+                    <span class="Login__Text">Get the app.</span>
+                    <div class="Login__App-Stores">
+                        <img src="images/ios.png" class="Login__App-Store" />
+                        <img src="images/android.png" class="Login__App-Store" />
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="Footer">
+            <nav class="Footer__Navigation">
+                <ul class="Navigation__List">
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            About us
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Support
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Press
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            API
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Jobs
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Privacy
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Terms
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Directory
+                        </a>
+                    </li>
+                    <li class="Navigation__Item">
+                        <a href="#" class="Navigation__Link">
+                            Language
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <span class="Footer__Copyright">© 2017 Instaclone</span>
+        </footer>
+        <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

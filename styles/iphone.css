@@ -1,0 +1,60 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 739px) {
+    body{
+        padding-top: 50px;
+    }
+
+    .Feed{
+        padding:0;
+    }
+    .u-content-box{
+        width: 100%;
+        max-width: none;
+        border:0;
+    }
+    .Footer{
+        display: none;
+    }
+    .Profile,
+    .Explore{
+        margin:0;
+    }
+
+    .Navigation{
+        justify-content:space-between;
+        height: 50px;
+        position: fixed;
+        width: 100%;
+        z-index:999;
+        padding:0;
+        top:0;
+        padding:0 10px;
+        box-sizing: border-box;
+    }
+    .Navigation__Column--Search,
+    .Navigation__Column--Icons{
+        display: none;
+
+    }
+
+    .MobileMenuTrigger{
+        display: block;
+        color:rgba(0, 0, 0, 0.5);
+    }
+    .Pictures__Picture-Container {
+        width: 90%;
+        margin: 5px auto;
+        display: flex;
+        align-items: center;
+    }
+    .Pictures__Link{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 5px;
+    position: relative;
+    }
+    .Pictures__Picture{
+    max-width: 100%;
+    }
+  }

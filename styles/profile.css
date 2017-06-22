@@ -1,0 +1,171 @@
+.Profile {
+	margin:60px auto;
+	max-width: 1000px;
+	width: 95%;
+}
+
+.Profile .Header{
+    display: flex;
+    justify-content:space-between;
+    padding: 50px 0px;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.Header__Full-Name {
+    font-weight: 600;
+}
+
+.Header__Column:first-child {
+    width:30%;
+    display: flex;
+    justify-content:center;
+}
+
+.Header__Column:last-child {
+    width: 70%;
+}
+
+.Header__Avatar-Container{
+    width: 152px;
+    height: 152px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.Header__Avatar{
+    min-width: 105%;
+}
+
+
+.Header__Section{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.Header__Section i{
+    cursor: pointer;
+}
+
+.Header__Title{
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.Header__Button{
+    padding:5px 20px;
+        border-radius: 3px;
+    border:solid 1px #dbdbdb;
+    transition:all .5s ease-in;
+}
+
+.Header__Button:hover{
+    color:white;
+    background-color:#3897F0;
+    border:0;
+    transform:rotate(1turn);
+}
+
+.Header__Numbers{
+	   display: flex;
+    justify-content:space-between;
+    width: 80%;
+
+}
+
+.Header__Section:last-child{
+    display: block;
+    width: 90%;
+}
+
+.Header__Link{
+    color:#003569;
+}
+
+.Header__Section:last-child * {
+    display: inline;
+}
+
+.Pictures__Picture-Container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.Pictures__Link{
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.Pictures__Picture{
+    max-width: 100%;
+    width: 293px;
+    height: 293px;
+}
+
+.Pictures__Overlay{
+    color:white;
+    font-weight: 600;
+    position: absolute;
+        top:0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+.Pictures__Link:hover .Pictures__Overlay{
+    opacity: 1;
+}
+
+
+.Pictures__Counter:first-child{
+    margin-right: 10px;
+}
+
+.SettingsOverlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.SettingsOverlay i {
+    position: absolute;
+    top:5px;
+    right: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.OverlayContainer a {
+    display: block;
+    align-items: center;
+}
+
+.OverlayContainer {
+    width: 30%;
+    padding: 20px 0;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+
+.OverlayContainer a:first-child {
+    border-bottom: 1px solid #dbdbdb
+}
+
+.OverlayContainer a:hover {
+    background-color: #efefef
+}

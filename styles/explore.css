@@ -1,0 +1,60 @@
+.Explore{
+    margin:60px auto;
+}
+
+.Explore__Header{
+    padding:15px 0px 10px 15px;
+    border-bottom:1px solid #e6e6e6;
+}
+
+.Explore__Tilte{
+    text-transform: uppercase;
+    color:#999;
+}
+
+.Explore__User{
+    padding:10px 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #e6e6e6;
+}
+
+.Explore__User:last-child{
+    border-bottom: 0;
+}
+
+.Explore__User-Left{
+    display: flex;
+    align-items:center;
+}
+
+.Explore__Username{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Explore__Avatar-Container{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.Explore__Avatar{
+    max-width: 100%
+}
+
+.Explore__Follow-Btn{
+    background-color:rgb(56,150,239);
+    border:none;
+    color:white;
+    font-size: 14px;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+
+.Explore__Follow-Btn:focus{
+    outline: none;
+}

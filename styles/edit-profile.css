@@ -1,0 +1,130 @@
+.Edit-Profile{
+    margin:60px auto;
+    width:80%;
+    padding:35px 0;
+}
+
+.Edit-Profile__Header{
+    margin-left: 124px;
+    display: flex;
+    align-items:center;
+}
+
+.Edit-Profile__Title{
+    font-size: 24px;
+}
+
+.Edit-Profile__Avatar-Container{
+    height:38px;
+    width:38px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right:35px;
+}
+
+.Edit-Profile__Avatar{
+    max-width: 100%;
+}
+
+.Edit-Profile__Form{
+    margin-top: 50px;
+}
+
+.Edit-Profile__Form-Row{
+    display: flex;
+    margin-bottom: 20px;
+    align-items:center;
+    box-sizing: border-box;
+}
+
+.Edit-Profile__Label-Container{
+    text-align: right;
+    margin-right:35px;
+    width:162px;
+}
+
+.Edit-Profile__Input-Container{
+    width:250px;
+    box-sizing: border-box;
+}
+
+.Edit-Profile__Input{
+    padding:7px 10px;
+    border:0;
+    border-radius: 3px;
+    border:solid 1px #dbdbdb;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.Edit-Profile__Input:focus,
+.Edit-Profile__Textarea:focus{
+    outline: none;
+}
+
+.Edit-Profile__Textarea{
+    border:0;
+    border-radius: 3px;
+    border:solid 1px #dbdbdb;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-left:10px;
+}
+
+.Edit-Profile__Divider{
+    margin-left:200px;
+    margin-bottom: 20px;
+    display: block;
+    color:#999;
+    text-transform: uppercase;
+}
+
+.Edit-Profile__Input-Container select{
+    width: 50%;
+    height: 30px;
+    background: white;
+
+}
+
+.Edit-Profile__Input-Container label{
+    width: 60%;
+}
+
+.TextAsInput{
+    display: flex;
+    width:80%;
+}
+
+.TextAsInput input{
+    margin-right:10px;
+}
+
+.Edit-Profile__Link{
+    color:#3897f0
+}
+
+.Submit-Row .Edit-Profile__Input-Container{
+    width: 80%;
+    display: flex;
+    align-items:center;
+}
+
+.Submit-Row .Edit-Profile__Link{
+    margin-left:150px;
+}
+
+.Submit-Row{
+    margin-top: 50px;
+
+}
+
+input[type="submit"]{
+    background-color:rgb(56,150,239);
+    color:white;
+    font-size: 14px;
+    border:0;
+    border-radius: 3px;
+    padding:5px 25px;
+}

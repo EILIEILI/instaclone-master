@@ -1,0 +1,96 @@
+.Image-Detail{
+    margin:60px auto;
+    display: flex;
+    width:90%;
+    max-width: 900px;
+    max-height: 550px;
+    justify-content:space-between;
+}
+
+.Image-Detail__Column-Left{
+    width: 30%;
+}
+
+.Image-Detail__Photo-Container{
+}
+
+.Image-Detail__Photo{
+    height:100%
+}
+
+.Image-Detail__Column-Right{
+    padding:0px 20px;
+    width: 33%;
+}
+
+.Image-Detail__Header{
+    padding: 15px 0;
+    display: flex;
+    align-items:center;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.Image-Detail__Avatar-Container{
+    width:40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.Image-Detail__Avatar{
+    max-width: 100%;
+}
+
+.Image-Detail__Username{
+    display: block;
+    margin-bottom: 3px;
+}
+
+.Image-Detail__Comments{
+    padding-top: 10px;
+    height: 320px;
+    overflow: scroll;
+}
+
+.Image-Detail__Comment{
+    margin-bottom: 10px;
+}
+
+.Image-Detail__Comment-Author{
+    font-weight: 600;
+}
+
+
+.Image-Detail__Actions{
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Image-Detail__Action:first-child{
+    margin-right:10px;
+}
+
+.Image-Detail__Like-Count{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Image-Detail__Date{
+    font-size: 10px;
+    color:#999;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.Image-Detail__Add-Comment{
+    border-top: 1px solid #e6e6e6;
+    padding-top: 15px;
+    display: flex;
+    align-items:center;
+}
+
+.Image-Detail__Add-Commnet i {
+
+}
